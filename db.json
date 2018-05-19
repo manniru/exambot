@@ -1,0 +1,515 @@
+{
+  "doctors": [
+    {
+      "role": "doctor",
+      "phone": "+600000000001",
+      "timestamp": 1526101916250,
+      "name": "doctor1",
+      "password": "doctor1",
+      "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/abdulhyeuk/128.jpg",
+      "id": 1
+    },
+    {
+      "role": "doctor",
+      "phone": "+600000000002",
+      "timestamp": 1526102005110,
+      "name": "doctor2",
+      "password": "doctor2",
+      "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/sharvin/128.jpg",
+      "id": 2
+    }
+  ],
+  "patients": [
+    {
+      "role": "patient",
+      "phone": "+600000000001",
+      "timestamp": 1526102115095,
+      "name": "patient1",
+      "password": "patient1",
+      "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/SlaapMe/128.jpg",
+      "id": 1
+    },
+    {
+      "role": "patient",
+      "phone": "+600000000002",
+      "timestamp": 1526102165830,
+      "name": "patient2",
+      "password": "patient2",
+      "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/illyzoren/128.jpg",
+      "id": 2
+    },
+    {
+      "role": "patient",
+      "phone": "+600000000001",
+      "timestamp": 1526102180911,
+      "name": "patient3",
+      "password": "patient3",
+      "photo": "https://s3.amazonaws.com/uifaces/faces/twitter/kostaspt/128.jpg",
+      "id": 3
+    }
+  ],
+  "pulses": [
+    {
+      "patientId": 3,
+      "timestamp": 1526101251114,
+      "bpm": 183,
+      "status": 0,
+      "id": 1
+    },
+    {
+      "patientId": 2,
+      "timestamp": 1526101261378,
+      "bpm": 115,
+      "status": 0,
+      "id": 2
+    },
+    {
+      "patientId": 1,
+      "timestamp": 1526101265211,
+      "bpm": 106,
+      "status": 0,
+      "id": 3
+    },
+    {
+      "patientId": 2,
+      "timestamp": 1526102273668,
+      "bpm": 148,
+      "status": 0,
+      "id": 4
+    },
+    {
+      "patientId": 1,
+      "timestamp": 1526102719513,
+      "bpm": 152,
+      "status": 0,
+      "id": 5
+    },
+    {
+      "patientId": 1,
+      "timestamp": 1526102743203,
+      "bpm": 178,
+      "status": 0,
+      "id": 6
+    },
+    {
+      "patientId": 2,
+      "timestamp": 1526102763219,
+      "bpm": 146,
+      "status": 0,
+      "id": 7
+    },
+    {
+      "patientId": 1,
+      "timestamp": 1526102767229,
+      "bpm": 98,
+      "status": 0,
+      "id": 8
+    },
+    {
+      "patientId": 1,
+      "timestamp": 1526102825660,
+      "bpm": 85,
+      "status": 0,
+      "id": 9
+    },
+    {
+      "patientId": 2,
+      "timestamp": 1526105409337,
+      "bpm": 159,
+      "status": 0,
+      "id": 10
+    },
+    {
+      "patientId": 1,
+      "timestamp": 1526472246996,
+      "bpm": 148,
+      "status": 0,
+      "id": 11
+    },
+    {
+      "patientId": 3,
+      "timestamp": 1526472254192,
+      "bpm": 171,
+      "status": 0,
+      "id": 12
+    },
+    {
+      "uid": 3,
+      "time": 1526027591660,
+      "bpm": 232,
+      "id": 13
+    },
+    {
+      "uid": 1,
+      "time": 1526472888928,
+      "bpm": 120,
+      "id": 14
+    },
+    {
+      "uid": 5,
+      "time": 1526472900508,
+      "bpm": 211,
+      "id": 15
+    },
+    {
+      "uid": 2,
+      "time": 1526472902960,
+      "bpm": 192,
+      "id": 16
+    },
+    {
+      "uid": 4,
+      "time": 1526472905579,
+      "bpm": 208,
+      "id": 17
+    },
+    {
+      "uid": 1,
+      "time": 1526472928697,
+      "bpm": 206,
+      "id": 18
+    },
+    {
+      "uid": 3,
+      "time": 1526473184410,
+      "bpm": 127,
+      "id": 19
+    },
+    {
+      "uid": 5,
+      "time": 1526473204887,
+      "bpm": 296,
+      "id": 20
+    },
+    {
+      "uid": 5,
+      "time": 1526473206720,
+      "bpm": 222,
+      "id": 21
+    },
+    {
+      "uid": 5,
+      "time": 1526473245033,
+      "bpm": 250,
+      "id": 22
+    },
+    {
+      "uid": 3,
+      "time": 1526473259472,
+      "bpm": 130,
+      "id": 23
+    },
+    {
+      "uid": 2,
+      "time": 1526473260716,
+      "bpm": 294,
+      "id": 24
+    },
+    {
+      "uid": 5,
+      "time": 1526473262429,
+      "bpm": 106,
+      "id": 25
+    },
+    {
+      "uid": 5,
+      "time": 1526473268776,
+      "bpm": 299,
+      "id": 26
+    },
+    {
+      "uid": 2,
+      "time": 1526473273508,
+      "bpm": 140,
+      "id": 27
+    },
+    {
+      "uid": 2,
+      "time": 1526473280509,
+      "bpm": 147,
+      "id": 28
+    },
+    {
+      "uid": 5,
+      "time": 1526473282268,
+      "bpm": 133,
+      "id": 29
+    },
+    {
+      "uid": 2,
+      "time": 1526473284456,
+      "bpm": 167,
+      "id": 30
+    },
+    {
+      "uid": 2,
+      "time": 1526473286620,
+      "bpm": 164,
+      "id": 31
+    },
+    {
+      "uid": 1,
+      "time": 1526473352048,
+      "bpm": 178,
+      "id": 32
+    },
+    {
+      "uid": 4,
+      "time": 1526473353678,
+      "bpm": 130,
+      "id": 33
+    },
+    {
+      "uid": 3,
+      "time": 1526473356323,
+      "bpm": 120,
+      "id": 34
+    },
+    {
+      "uid": 1,
+      "time": 1526473361488,
+      "bpm": 183,
+      "id": 35
+    },
+    {
+      "uid": 1,
+      "time": 1526473363166,
+      "bpm": 134,
+      "id": 36
+    },
+    {
+      "uid": 3,
+      "time": 1526474659795,
+      "bpm": 141,
+      "id": 37
+    },
+    {
+      "uid": 2,
+      "time": 1526474661423,
+      "bpm": 170,
+      "id": 38
+    },
+    {
+      "uid": 5,
+      "time": 1526474662334,
+      "bpm": 110,
+      "id": 39
+    },
+    {
+      "uid": 2,
+      "time": 1526474675348,
+      "bpm": 100,
+      "id": 40
+    },
+    {
+      "uid": 1,
+      "time": 1526474676625,
+      "bpm": 105,
+      "id": 41
+    },
+    {
+      "uid": 2,
+      "time": 1526474677817,
+      "bpm": 136,
+      "id": 42
+    },
+    {
+      "uid": 2,
+      "time": 1526474678926,
+      "bpm": 136,
+      "id": 43
+    },
+    {
+      "uid": 3,
+      "time": 1526474679946,
+      "bpm": 137,
+      "id": 44
+    },
+    {
+      "uid": 5,
+      "time": 1526474680984,
+      "bpm": 174,
+      "id": 45
+    },
+    {
+      "uid": 5,
+      "time": 1526474681975,
+      "bpm": 183,
+      "id": 46
+    },
+    {
+      "uid": 4,
+      "time": 1526474831137,
+      "bpm": 108,
+      "id": 47
+    },
+    {
+      "uid": 4,
+      "time": 1526474831927,
+      "bpm": 127,
+      "id": 48
+    },
+    {
+      "uid": 2,
+      "time": 1526474872728,
+      "bpm": 107,
+      "id": 49
+    },
+    {
+      "uid": 1,
+      "time": 1526474898115,
+      "bpm": 180,
+      "id": 50
+    },
+    {
+      "uid": 2,
+      "time": 1526474899634,
+      "bpm": 102,
+      "id": 51
+    },
+    {
+      "uid": 4,
+      "time": 1526474978466,
+      "bpm": 198,
+      "id": 52
+    },
+    {
+      "uid": 4,
+      "time": 1526474979823,
+      "bpm": 147,
+      "id": 53
+    },
+    {
+      "uid": 1,
+      "time": 1526474988457,
+      "bpm": 125,
+      "id": 54
+    },
+    {
+      "uid": 4,
+      "time": 1526474989528,
+      "bpm": 112,
+      "id": 55
+    },
+    {
+      "uid": 5,
+      "time": 1526474990285,
+      "bpm": 159,
+      "id": 56
+    },
+    {
+      "uid": 3,
+      "time": 1526474991229,
+      "bpm": 156,
+      "id": 57
+    },
+    {
+      "uid": 1,
+      "time": 1526476032565,
+      "bpm": 176,
+      "id": 58
+    },
+    {
+      "uid": 5,
+      "time": 1526476033855,
+      "bpm": 108,
+      "id": 59
+    },
+    {
+      "uid": 4,
+      "time": 1526476042632,
+      "bpm": 142,
+      "id": 60
+    },
+    {
+      "uid": 5,
+      "time": 1526476043760,
+      "bpm": 154,
+      "id": 61
+    },
+    {
+      "uid": 5,
+      "time": 1526476045333,
+      "bpm": 132,
+      "id": 62
+    },
+    {
+      "uid": 4,
+      "time": 1526477051948,
+      "bpm": 149,
+      "id": 63
+    },
+    {
+      "uid": 1,
+      "time": 1526477053900,
+      "bpm": 145,
+      "id": 64
+    },
+    {
+      "uid": 4,
+      "time": 1526477055132,
+      "bpm": 161,
+      "id": 65
+    },
+    {
+      "uid": 4,
+      "time": 1526477056993,
+      "bpm": 135,
+      "id": 66
+    },
+    {
+      "uid": 1,
+      "time": 1526477506381,
+      "bpm": 125,
+      "id": 67
+    },
+    {
+      "uid": 5,
+      "time": 1526477520938,
+      "bpm": 172,
+      "id": 68
+    },
+    {
+      "uid": 1,
+      "time": 1526477523035,
+      "bpm": 107,
+      "id": 69
+    },
+    {
+      "uid": 1,
+      "time": 1526549491191,
+      "bpm": 113,
+      "id": 70
+    },
+    {
+      "uid": 2,
+      "time": 1526550290319,
+      "bpm": 110,
+      "id": 71
+    },
+    {
+      "uid": 1,
+      "time": 1526550298261,
+      "bpm": 147,
+      "id": 72
+    },
+    {
+      "uid": 5,
+      "time": 1526550340977,
+      "bpm": 105,
+      "id": 73
+    },
+    {
+      "uid": 4,
+      "time": 1526550343463,
+      "bpm": 175,
+      "id": 74
+    },
+    {
+      "uid": 2,
+      "time": 1526550350028,
+      "bpm": 117,
+      "id": 75
+    }
+  ]
+}
